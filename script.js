@@ -1,4 +1,3 @@
-
 const form = document.getElementById('surveyForm');
 const container = document.getElementById('mainContainer');
 
@@ -9,12 +8,12 @@ form.addEventListener('submit', async function (event) {
 
     try {
         const response = await fetch('https://formspree.io/f/xzzrzwpj', {
-    method: 'POST',
-    body: formData,
-    headers: {
-        'Accept': 'application/json'
-    }
-});
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
 
         if (response.ok) {
             container.innerHTML = `
@@ -31,3 +30,4 @@ form.addEventListener('submit', async function (event) {
         console.error(error);
     }
 });
+

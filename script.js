@@ -8,13 +8,13 @@ form.addEventListener('submit', async function (event) {
     const formData = new FormData(form);
 
     try {
-        const response = await fetch('https://formspree.io/forms/manonkvy/', {
-            method: 'POST',
-            body: formData,
-            headers: {
-                'Accept': 'application/json'
-            }
-        });
+        const response = await fetch('https://formspree.io/f/manonkvy', {
+    method: 'POST',
+    body: formData,
+    headers: {
+        'Accept': 'application/json'
+    }
+});
 
         if (response.ok) {
             container.innerHTML = `

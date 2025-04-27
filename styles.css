@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #1c1c1c; /* Preto */
@@ -32,22 +33,22 @@ input, select, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #007bff; /* Azul escuro */
+    border: 1px solid #007bff;
     border-radius: 5px;
-    background-color: #3c3c3c; /* Cinza escuro */
+    background-color: #3c3c3c;
     color: white;
     font-size: 16px;
 }
 
 input:focus, select:focus, textarea:focus {
-    border-color: #0056b3; /* Azul mais escuro */
+    border-color: #0056b3;
     outline: none;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff; /* Azul escuro */
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
@@ -57,12 +58,12 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Azul mais escuro */
+    background-color: #0056b3;
 }
 
 #message {
     margin-top: 20px;
     text-align: center;
     font-size: 18px;
-    color: #28a745; /* Verde para mensagem de sucesso */
+    color: #28a745;
 }

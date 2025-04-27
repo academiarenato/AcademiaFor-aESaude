@@ -1,3 +1,4 @@
+
 const form = document.getElementById('surveyForm');
 const container = document.getElementById('mainContainer');
 
